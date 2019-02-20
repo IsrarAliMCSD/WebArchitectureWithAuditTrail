@@ -1,0 +1,626 @@
+﻿.body {
+    background-color: #ded5d5;
+    /*#a7a3a3;*/
+}
+
+.validation {
+    color: red;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.width80pc {
+    width: 80%;
+}
+.width90pc {
+    width: 90%;
+}
+
+.width100pc {
+    width: 100%;
+}
+
+.ddl {
+    color: #fff;
+    background-color: #a7a3a3;
+    border-color: #696b6f;
+}
+
+.divMaster {
+    border-style: solid;
+    border-color: #0000ff;
+    border-color: green;
+    border-width: 1px;
+    z-index:1;
+}
+
+.nicecolor {
+    color: black;
+    width: 200px;
+    height: 200px;
+}
+
+    .nicecolor:hover {
+        color: white;
+        background-color: gray;
+    }
+
+.fixedniceColor {
+    color: white;
+    background-color: gray;
+}
+
+.businessClubColor1 {
+    color: white;
+    background-color: #bbb3b2;
+}
+
+.businessClubColor2 {
+    color: white;
+    background-color: #a7a3a3;
+}
+
+    .businessClubColor2 span {
+        display: block;
+        padding: 20px;
+        text-align: left;
+    }
+
+
+
+.boldText {
+    font-weight: bold;
+}
+
+.italicText {
+    font-style: italic;
+}
+
+.divContent {
+    color: black;
+    /*width: 600px;*/
+    height: 800px;
+}
+
+
+.divSkill {
+    background: #94c3c2;
+    margin-right: 5px;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.divSkillWithOutMargin {
+    background: #94c3c2;
+    border: 2px solid;
+    border-radius: 4px;
+}
+
+.divContent:hover {
+    /*color: white;
+        background-color: brown;*/
+}
+
+.width100 {
+    width: 100px;
+    /* height: 100px;*/
+}
+.width130 {
+    width: 130px;
+}
+.width150 {
+    width: 150px;
+}
+
+.widthHeight150 {
+    width: 150px;
+    height: 150px;
+}
+
+.width50 {
+    width: 50px;
+    height: 50px;
+}
+.widthHeight50 {
+    width: 50px;
+    height: 50px;
+}
+
+.width25 {
+    width: 25px;
+    height: 25px;
+}
+
+.width200,
+.widthHeight200 {
+    width: 200px;
+}
+
+.widthHeight195 {
+    height: 195px;
+}
+
+widthHeight195,
+.widtht195 {
+    width: 195px;
+}
+
+.widthHeight180 {
+    height: 180px;
+}
+
+widthHeight180,
+.widtht180 {
+    width: 180px;
+}
+
+.widthHeight100 {
+    height: 100px;
+}
+
+widthHeight100,
+.widtht100 {
+    width: 100px;
+}
+
+.height200 {
+    height: 200px;
+}
+/*#imgProfilePicture {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    max-width: 100%;
+  }*/
+.width250 {
+    width: 250px;
+}
+
+.width450 {
+    width: 450px;
+}
+
+.width255 {
+    width: 255px;
+}
+
+.width275 {
+    width: 275px;
+}
+
+.width300 {
+    width: 300px;
+}
+
+.width50 {
+    width: 50px;
+}
+
+.width30 {
+    width: 30px;
+}
+
+.width20,
+.widthHeight20 {
+    width: 20px;
+}
+
+.widthHeight20 {
+    height: 20px;
+}
+
+.width100Ps,
+#imgProfilePicture {
+    width: 100%;
+}
+
+.width100Ps {
+    height: 100%;
+}
+
+.widthHeight30 {
+    width: 30px;
+    height: 30px;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.show {
+    display: block !important;
+}
+
+.hide {
+    display: none !important;
+}
+
+.expandImg {
+    content: url("../Images/minus.png");
+}
+
+.collapseImg {
+    content: url("../Images/plus.png");
+}
+
+.mainHeading {
+    font-weight: bold;
+}
+
+.greenBedge {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+
+.blueBedge {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+
+/*input[type="text"] {
+    border: 1px solid #999;
+    border-radius: 2px;
+}
+
+    input[type="text"]:focus {
+        outline: none;
+        box-shadow: 0px 0px 5px #61C5FA;
+        border: 2px solid #5AB0DB;
+    }
+
+    input[type="text"]:hover {
+        border: 1px solid #999;
+        border-radius: 2px;
+        box-shadow: 0px 0px 2px #61C5FA;
+    }
+
+    input[type="text"]:focus:hover {
+        outline: none;
+        box-shadow: 0px 0px 2px #61C5FA;
+        border: 1px solid #5AB0DB;
+        border-radius: 2px;
+    }*/
+
+.backgroundYellow {
+    background-color: #cfdc24;
+}
+
+/*Button green start*/
+.form-btn,
+.button,
+.button:hover {
+    border-radius: 2px;
+}
+
+.button {
+    background-color: #5cb85c;
+    color: white;
+    border: 2px solid #5cb85c;
+}
+
+    .button:hover {
+        background-color: white;
+        color: #5cb85c;
+        border: 2px solid #5cb85c;
+        font-weight: bold;
+    }
+    .button:disabled,
+button[disabled]{
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+}
+/*Button green End*/
+/*=========CheckBox*/
+/*input[type="checkbox"] {
+    display: none;
+}
+
+    input[type="checkbox"] + label span {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        margin: -1px 4px 0 0;
+        vertical-align: middle;
+        background: url(/content/images/2x/checkbox_off.png) left top no-repeat;
+        background-size: 25px 25px;
+        cursor: pointer;
+    }
+
+    input[type="checkbox"]:checked + label span {
+        background-image: url(/content/images/2x/checkbox_on.png);
+    }*/
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.width90Ps {
+    width: 90%;
+}
+
+.BgColorBrown {
+    background-color: #a7a3a3 !important;
+    border-color: #696b6f;
+}
+
+.BgColorBrown,
+.form-btn {
+    color: #fff;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-btn {
+    font-weight: 700;
+    cursor: pointer;
+    -o-transition: all .3s;
+    -webkit-transition: all .3s;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    border: 3px solid #de232f;
+    background-color: #de232f;
+    max-width: 200px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+    .form-btn:hover {
+        background-color: #fff;
+        color: #de232f;
+    }
+
+.margin-Top5 {
+    margin-top: 5px;
+}
+
+#hr {
+    height: 20px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+    height: 30px;
+    border-style: solid;
+    border-color: #c21f1f;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+.textBox {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    width: 260px;
+    height: 30px;
+    /*width: 300px;
+    max-width: 100%;
+    /*border: 1px solid #000;*/
+    box-shadow: none;
+    border: 2px solid ccc;
+    border-radius: 4px;
+}
+
+    .textBox:focus {
+        background-color: #dddddd;
+        border: 3px solid #555;
+    }
+
+    .textBox100W {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    /*width: 300px;
+    max-width: 100%;
+    /*border: 1px solid #000;*/
+    box-shadow: none;
+    border: 2px solid ccc;
+    border-radius: 4px;
+}
+
+    .textBox100W:focus {
+        background-color: #dddddd;
+        border: 3px solid #555;
+    }
+
+    
+.textBox90percent {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    /*width: 300px;
+    max-width: 100%;
+    /*border: 1px solid #000;*/
+    box-shadow: none;
+    border: 2px solid ccc;
+    border-radius: 4px;
+}
+
+    .textBox90percent:focus {
+        background-color: #dddddd;
+        border: 3px solid #555;
+    }
+
+
+/*.textBox200 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
+    width:200px;
+    height: 30px;
+    /*width: 300px;
+    max-width: 100%;
+    /*border: 1px solid #000;*/
+/*   box-shadow: none;
+    border: 2px solid ccc;
+    border-radius: 4px;
+}
+
+    .textBox200:focus {
+        background-color: #dddddd;
+        border: 3px solid #555;
+    }*/
+
+.circle {
+    border: 2px solid #a1a1a1;
+    padding: 2px 10px;
+    background: #dddddd;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.borderRadious {
+    border-radius: 15px;
+}
+
+.ddlWidth260 {
+    width: 260px;
+    height: 30px;
+}
+
+.width260 {
+    width: 260px;
+}
+
+.height35 {
+}
+
+.widthHeight50 {
+    width: 50px;
+    height: 50px;
+}
+
+.width400 {
+    width: 400px;
+}
+
+.ui-tabs-nav {
+    background-color: #222 !important; /*To overwrite jquery-ui.css*/
+    height: 30px; /*To stop nav block scaling of tab size*/
+}
+
+.divCenter {
+    vertical-align: middle;
+    text-align: center;
+}
+
+div#tabs {
+    background: #bdbdbd;
+    border: none;
+    margin-top: 10px;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #292b2c;
+}
+
+.ui-tabs .ui-tabs-nav {
+    display: block;
+    background: transparent !important;
+    border: none !important;
+    padding: 0px;
+    height: 33px;
+}
+
+.ui-tabs .ui-tabs-tab {
+    background: #fff;
+    font-size: 12px;
+    border: none;
+}
+
+.store-box {
+    /*margin-right: 10px;*/
+    cursor: pointer;
+    border: 0px solid #9325BC;
+}
+
+a.join-now {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.store-name {
+        font-size: 16px;
+    padding-top: 30px;
+    display: block;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0;
+}
+
+.divUrl {
+    border-style: solid;
+    border-color: #0000ff;
+    border-color: green;
+    border-width: 1px;
+   height: 200px;
+   width:100%;
+}
+
+
+ 
+
+.editButtonHover {
+    background-color:rgba(255, 0, 0, 0.5); 
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    opacity:0;
+    z-index:100;
+    padding:15px 35px;
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+.divMaster {
+    position: relative;
+}
+.divMaster:hover > .editButtonHover {
+    opacity:1;
+}
+
+
+.ui-dialog.success-dialog {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: .8em;
+}
+
+
+
+
+
+.ui-widget-overlay
+{
+  opacity: .50 !important; /* Make sure to change both of these, as IE only sees the second one */
+  filter: Alpha(Opacity=50) !important;
+
+  background-color:  #000000 !important; /* This will make it darker */
+}
+
+.label
+{
+    font-size: 11px;
+}

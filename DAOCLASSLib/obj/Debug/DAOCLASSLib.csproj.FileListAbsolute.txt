@@ -1,0 +1,10 @@
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\DAOCLASSLib\bin\Debug\DAOCLASSLib.dll.config
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\DAOCLASSLib\bin\Debug\DAOCLASSLib.dll
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\DAOCLASSLib\bin\Debug\DAOCLASSLib.pdb
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\DAOCLASSLib\bin\Debug\EntityFramework.dll
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\DAOCLASSLib\bin\Debug\EntityFramework.SqlServer.dll
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\DAOCLASSLib\bin\Debug\EntityFramework.xml
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\DAOCLASSLib\bin\Debug\EntityFramework.SqlServer.xml
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\DAOCLASSLib\obj\Debug\DAOCLASSLib.dll
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\DAOCLASSLib\obj\Debug\DAOCLASSLib.pdb
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\DAOCLASSLib\obj\Debug\DAOCLASSLib.csprojResolveAssemblyReference.cache

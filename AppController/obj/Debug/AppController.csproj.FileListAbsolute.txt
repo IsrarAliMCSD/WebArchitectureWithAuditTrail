@@ -1,0 +1,13 @@
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\bin\Debug\AppController.dll
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\bin\Debug\AppController.pdb
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\bin\Debug\BAL.dll
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\bin\Debug\DAOCLASSLib.dll
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\bin\Debug\DAL.dll
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\bin\Debug\EntityFramework.dll
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\bin\Debug\BAL.pdb
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\bin\Debug\DAOCLASSLib.pdb
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\bin\Debug\DAL.pdb
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\bin\Debug\EntityFramework.xml
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\obj\Debug\AppController.csprojResolveAssemblyReference.cache
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\obj\Debug\AppController.dll
+D:\D Drive\Applications\WebForm\AmjadBhai\WebApp_Amjad\AppController\obj\Debug\AppController.pdb

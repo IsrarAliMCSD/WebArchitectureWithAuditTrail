@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="App_Master.master.cs" Inherits="WebApp_Amjad.Master.App_Master" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../Style/Amjad.css" rel="stylesheet" />
+    <script src="../Framework/JQuery/jquery-ui-1.12.1/external/jquery/jquery.js"></script>
+    <script src="../Framework/JQuery/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <link href="../Framework/JQuery/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet" />
+    <link href="../Framework/BootStrap/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../Framework/BootStrap/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="../Framework/BootStrap/bootstrap-4.0.0-alpha.6-dist/js/bootstrap.min.js"></script>
+    <script src="../Framework/JS/bubu.js"></script>
+    <%--<script src="../Framework/JS/Login.js"></script>--%>
+
+    <style>
+        /*.div {
+            border-style: solid;
+            border-color: #0000ff;
+            border-width: 1px;
+        }*/
+    </style>
+    <script>
+
+        $(document).ready(function () {
+
+            Accordian(".accordian");
+            DatePicker(".calendar");
+            Tab(".tab");
+            var path = window.location.pathname;
+            var filenameWithExtension
+                = path.split("/").pop();
+            var filename = filenameWithExtension.split(".")[0];
+            $("#" + filename).addClass("fixedniceColor");
+            if (filename == "BusinessClubMgmt") {
+                // $("#BusinessClubEvent").removeClass("hide");
+
+            }
+            else if (filename == "BusinessClubDetail") {
+
+                $("#JobSearch").addClass("hide");
+                $("#EmployeeNewsInfo").addClass("hide");
+                $("#Business").addClass("hide");
+                $("#BusinessClubEvent").removeClass("hide");
+                $("#Club").removeClass("hide").addClass("fixedniceColor");
+                // $("#Club").addClass("fixedniceColor");
+
+            }
+            else if (filename == "BusinessClubEvent") {
+
+                //  $("#JobSearch").addClass("hide");
+                $("#EmployeeNewsInfo").addClass("hide");
+                $("#Business").addClass("hide");
+                // $("#BusinessClubEvent").removeClass("hide");
+                $("#Club").removeClass("hide");
+                $("#BusinessClubEvent").removeClass("hide").addClass("fixedniceColor");
+                $("#JobSearch").addClass("hide");
+            }
+            else if (filename == "AddBusinessClubEvent") {
+
+                //  $("#JobSearch").addClass("hide");
+                $("#EmployeeNewsInfo").addClass("hide");
+                $("#Business").addClass("hide");
+                // $("#BusinessClubEvent").removeClass("hide");
+                $("#Club").removeClass("hide");
+                $("#BusinessClubEvent").removeClass("hide").addClass("fixedniceColor");
+                $("#JobSearch").addClass("hide");
+            }
+
+
+            else if (filename == "AddBusinessClub") {
+                $("#JobSearch").addClass("hide");
+
+            }
+
+        });
+
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="body">
+    <form id="form1" runat="server">
+
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-right">
+                    This is a header information
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-right">
+                    <hr />
+                </div>
+            </div>
+        </div>
+        <div class="container ">
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+
+        </div>
+    </form>
+</body>
+</html>
